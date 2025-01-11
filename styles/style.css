@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Fira Sans", serif;
+}
+/* universal */
+
+.btn-primary{
+    background-color: #006A50;
+    color:white;
+    padding: 17px 34px;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #488a7a;
+    
+    
+  }
+
+.primary-h{
+    margin: 32px 0px;
+    font-size: 40px;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+.main{
+    margin: 0 auto;
+    width: 1280px;
+}
+.hero{
+    border-radius: 15px;
+    height: 560px;
+    padding: ;
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-common{
+    
+    width: 45%;
+  
+}
+
+.hero-common p{
+    font-size: 24px;
+    
+}
+.hero-common h1{
+    font-size: 56px;
+}
+
+/* Vision section */
+
+.vision-cards{
+    display: flex;
+    gap: 2%;
+    
+    
+}
+
+.card-1{
+background-color: #D5E1F5;
+border-radius: 15px;
+padding: 20px;
+
+}
+.card-2{
+background-color: #C6E4D6;
+border-radius: 15px;
+padding: 20px;
+}
+.card-3{
+background-color: #F7EBCF;
+border-radius: 15px;
+padding: 20px;
+}
+.btn-sec{
+    color: white;
+    padding: 11px 20px;
+    border-radius: 10px;
+    border: none;
+}
+.btn-sec-one{
+
+    background-color: #4D93F7;
+}
+.btn-sec-two{
+background-color: #159F90;
+}
+.btn-sec-three{
+    background-color: #FFC239;
+}
