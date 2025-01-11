@@ -1,39 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* universal */
-*{
+* {
     font-family: "Fira Sans", serif;
 }
 
 
+p {
+    font-size: 16px;
+}
 
+/* hero section */
 
-.btn-primary{
+.btn-primary {
     background-color: #006A50;
-    color:white;
+    color: white;
     padding: 17px 34px;
     border: none;
     border-radius: 8px;
 }
+
 .btn-primary:hover {
     background-color: #488a7a;
-    
-    
-  }
 
-.primary-h{
+
+}
+.hero-p{
+    color: rgba(14, 14, 14, 0.5);
+    line-height: 0px;
+}
+.primary-h {
+    
     margin: 32px 0px;
     font-size: 40px;
 }
 
-body{
+.primary-h3 {
+    font-size: 33px;
+}
+
+body {
     background-color: #F5F5F5;
 }
 
-.main{
+.main {
     margin: 0 auto;
     width: 1280px;
 }
-.hero{
+
+.hero {
     border-radius: 15px;
     height: 560px;
     padding: ;
@@ -42,86 +57,210 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-.hero-common{
-    
+
+.hero-common {
+
     width: 45%;
-  
+
 }
 
-.hero-common p{
+.hero-common p {
     font-size: 24px;
-    
+
 }
-.hero-common h1{
+
+.hero-common h1 {
     font-size: 56px;
 }
 
 /* Vision section */
 
-.vision-cards{
+.vision-cards {
     display: flex;
     gap: 2%;
-    
-    
-}
 
-.card-1{
-background-color: #D5E1F5;
-border-radius: 15px;
-padding: 20px;
 
 }
-.card-2{
-background-color: #C6E4D6;
-border-radius: 15px;
-padding: 20px;
+
+.card-1 {
+    background-color: #D5E1F5;
+    border-radius: 15px;
+    padding: 20px;
+
 }
-.card-3{
-background-color: #F7EBCF;
-border-radius: 15px;
-padding: 20px;
+
+.card-2 {
+    background-color: #C6E4D6;
+    border-radius: 15px;
+    padding: 20px;
 }
-.btn-sec{
+
+.card-3 {
+    background-color: #F7EBCF;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.btn-sec {
     color: white;
     padding: 11px 20px;
     border-radius: 10px;
     border: none;
 }
 
-.btn-sec:hover{
+.btn-sec:hover {
     background-color: rgba(255, 255, 255, 40%);
     color: black;
 }
-.btn-sec-one{
+
+.btn-sec-one {
 
     background-color: #4D93F7;
 }
-.btn-sec-two{
-background-color: #159F90;
+
+.btn-sec-two {
+    background-color: #159F90;
 }
-.btn-sec-three{
+
+.btn-sec-three {
     background-color: #FFC239;
+}
+
+/* quote section */
+
+.quote {
+    
+    margin: 33px 0;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+.quote-content{
+
+    background-image: url('../assets/quote-bg.png');
+    background-position: top-left;
+    background-repeat: no-repeat;
+}
+.quote-p{
+    padding-top: 20px;
+}
+
+.quote-title{
+    line-height: 0;
+    color: rgb(83, 83, 83) ;
 }
 
 
 /* news section */
 
-.news-one{
+.news-one {
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
     margin-bottom: 35px;
 }
-.news-one-img{
+
+.news-one-img {
     padding: 30px;
-    
+
 }
 
-.news-img{
+.news-img {
     border-radius: 15px;
 }
-.news-one-content{
+
+.news-one-content {
     padding: 30px;
 }
 
+
+/* donate-today */
+.donate-today {
+    margin: 0 auto;
+    gap: 20px;
+    text-align: center;
+
+    width: 80%;
+}
+
+.donate-cards {
+    padding-bottom: 20px;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.donate-content {
+    padding-bottom: 20px;
+}
+
+.dcards {
+
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 15px;
+    background-color: white;
+}
+
+.dcards:hover {
+    background-color: #C6E4D6;
+}
+
+.card-h {
+    text-align: center;
+    padding: 10px 20px;
+
+}
+
+.donate-input input {
+    border: none;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+.donate-today button{
+    margin-top: 20px;
+
+}
+
+
+/* newsletter section */
+
+.newsletter {
+    margin: 50px 0px;
+ background-color: #C6E4D6;
+ text-align: center;
+
+}
+
+.subs-newsletter{
+    padding: 40px 0px;
+    
+}
+.subs-newsletter p{
+    color: rgba(14, 14, 14, 0.7);
+}
+.input-subs{
+    
+    height: 50px;
+    justify-content: center;
+    border: none;
+    display: flex;
+}
+.input-subs input{
+    padding-left: 30px;
+    border: none;
+    width: 50%;
+    border-radius:8px 0  0 8px;
+}
+.input-subs button{
+    background-color: #006A50;
+    color: white;
+    padding: 17px 34px;
+    border: none;
+    border-radius:0 8px  8px 0;
+    
+    
+}
 
