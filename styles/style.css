@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+/* universal */
 *{
     font-family: "Fira Sans", serif;
 }
-/* universal */
+
+
+
 
 .btn-primary{
     background-color: #006A50;
     color:white;
     padding: 17px 34px;
     border: none;
+    border-radius: 8px;
 }
 .btn-primary:hover {
     background-color: #488a7a;
@@ -84,6 +87,11 @@ padding: 20px;
     border-radius: 10px;
     border: none;
 }
+
+.btn-sec:hover{
+    background-color: rgba(255, 255, 255, 40%);
+    color: black;
+}
 .btn-sec-one{
 
     background-color: #4D93F7;
@@ -94,3 +102,26 @@ background-color: #159F90;
 .btn-sec-three{
     background-color: #FFC239;
 }
+
+
+/* news section */
+
+.news-one{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.news-one-img{
+    padding: 30px;
+    
+}
+
+.news-img{
+    border-radius: 15px;
+}
+.news-one-content{
+    padding: 30px;
+}
+
+
