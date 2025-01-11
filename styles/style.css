@@ -2,6 +2,7 @@
 
 /* universal */
 * {
+    
     font-family: "Fira Sans", serif;
 }
 
@@ -41,6 +42,7 @@ p {
 
 body {
     background-color: #F5F5F5;
+    margin: 0px 0px;
 }
 
 .main {
@@ -228,6 +230,7 @@ body {
 /* newsletter section */
 
 .newsletter {
+    border-radius: 15px;
     margin: 50px 0px;
  background-color: #C6E4D6;
  text-align: center;
@@ -262,5 +265,8 @@ body {
     border-radius:0 8px  8px 0;
     
     
+}
+.input-subs button:hover{
+    background-color: #488A7A;
 }
 
